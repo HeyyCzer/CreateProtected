@@ -4,6 +4,10 @@
   "package": "com.heyyczer.createprotected.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "FilteringBehaviourMixin",
+    "ScrollValueBehaviourMixin",
+    "BlockEntityConfigurationPacketMixin",
+    "BlockRightClickMixin"
   ],
   "client": [
   ],
