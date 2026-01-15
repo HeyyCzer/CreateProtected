@@ -1,0 +1,5 @@
+{
+  "itemGroup.createprotected": "Example Mod Tab",
+  "block.createprotected.example_block": "Example Block",
+  "item.createprotected.example_item": "Example Item"
+}
