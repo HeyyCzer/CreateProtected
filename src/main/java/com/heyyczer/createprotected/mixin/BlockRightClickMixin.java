@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(FTBChunks.class)
-public class BlockRightClickMixin {
+public abstract class BlockRightClickMixin {
 
     // Allow click in Numismatics Bank Terminal
     @Inject(
