@@ -59,6 +59,7 @@ neoForge {
             server()
             programArgument '--nogui'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+            gameDirectory = project.file("run/server")
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -92,6 +93,8 @@ neoForge {
             // You can set various levels here.
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             logLevel = org.slf4j.event.Level.DEBUG
+
+            loggingConfigFile = project.file("log4j.xml")
         }
     }
 
